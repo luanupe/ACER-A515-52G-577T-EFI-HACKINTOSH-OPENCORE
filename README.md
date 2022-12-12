@@ -11,15 +11,15 @@
 
 ## Features
 
-[x] Ethernet
-[x] Sound
-[x] * HDMI
-[x] * Wifi / Bluetooth - With BCM94352Z
-[x] Airdrop / Handsoff
-[x] USB Mapping
-[x] TrackPad Gestures
-[x] Power Management
-[ ] GPU MX130 - Unsupported
+- [x] Ethernet
+- [x] Sound
+- [x] * HDMI
+- [x] * Wifi / Bluetooth - With BCM94352Z
+- [x] Airdrop / Handsoff
+- [x] USB Mapping
+- [x] TrackPad Gestures
+- [x] Power Management
+- [ ] GPU MX130 - Unsupported
 
 ## BIOS
 
