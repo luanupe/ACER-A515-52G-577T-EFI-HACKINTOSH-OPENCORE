@@ -226,7 +226,7 @@
                 <key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
                 <dict>
                     <key>layout-id</key>
-                    <integer>31</integer>
+                    <integer>96</integer>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
@@ -240,6 +240,8 @@
                     <data>AAgAAA==</data>
                     <key>#framebuffer-con2-alldata</key>
                     <data>AgYJAAAEAACHAQAA</data>
+                    <key>#framebuffer-con2-enable</key>
+                    <data>AQAAAA==</data>
                     <key>#framebuffer-con2-index</key>
                     <data>/////w==</data>
                     <key>#framebuffer-con3-alldata</key>
@@ -257,8 +259,6 @@
                     <key>device-id</key>
                     <data>mz4AAA==</data>
                     <key>enable-hdmi20</key>
-                    <data>AQAAAA==</data>
-                    <key>f#ramebuffer-con2-enable</key>
                     <data>AQAAAA==</data>
                     <key>framebuffer-con1-alldata</key>
                     <data>AQESAAAIAADHAQAA</data>
@@ -1118,7 +1118,7 @@
                 <key>PollAppleHotKeys</key>
                 <false/>
                 <key>ShowPicker</key>
-                <false/>
+                <true/>
                 <key>TakeoffDelay</key>
                 <integer>0</integer>
                 <key>Timeout</key>
@@ -1189,7 +1189,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Disabled</string>
+                <string>Default</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -1251,7 +1251,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>keepsyms=1 debug=0x100 -wegnoegpu igfxonln=1 agdpmod=vit9696 alcid=31</string>
+                    <string>keepsyms=1 debug=0x100 -wegnoegpu igfxonln=1 agdpmod=vit9696 -caroff</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
